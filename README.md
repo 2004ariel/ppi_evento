@@ -1,1 +1,0 @@
-# ppi_evento
