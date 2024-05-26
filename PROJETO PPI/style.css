@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+header {
+    margin: 0 auto;
+    background-color: rgb(90, 38, 38);
+    padding: 2px;
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+    box-sizing: border-box;
+    animation: fadeIn 2s; 
+}
+
+header p {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+
+}
+
+@keyframes fadeIn {
+    from{
+        
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+tr {
+  
+    width: 1280px;
+    
+}
+
+
+.header {
+    background-image: url('./img/Design\ sem\ nome.png');
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 100%;
+    height: 600px;
+    display: inline-flex;
+    flex-direction: right;
+    
+  
+}
+
+    
+.barra {
+    align-items: center;
+    background-color: black;
+}
+
+.barra li {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:center;
+    color: white;
+    padding: 20px;
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+}
+
+.itens {
+    margin: 0px;
+}
+
+.title {
+    color: white;
+    width: 500px;
+    font-family: 'old london', sans-serif;
+    display: block;
+    flex-direction:column;
+
+}
+
+
+.menu {
+
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+   
+    box-sizing: border-box;
+    animation: fadeIn 2s;
+    display: flex;
+}
+
+
+
+.logo {
+    width: 200px;
+   
+    margin-top: 0 auto;
+    padding: 0px;
+
+    
+}
+
+
